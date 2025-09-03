@@ -6,7 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/*.h
-/*.png
-/*.csv
-/*.txt
+*.h
+*.png
+*.csv
+*.txt
