@@ -1,12 +1,104 @@
-# Default ignored files
+# ==========================
+# OS / IDE / Editor
+# ==========================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# JetBrains IDE (CLion, PyCharm, IntelliJ...)
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# ==========================
+# Build / Binary / Temp
+# ==========================
+build/
+dist/
+out/
+*.o
+*.obj
+*.so
+*.dll
+*.lib
+*.exe
+*.pdb
+
+# ==========================
+# Logs / Temp files
+# ==========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ==========================
+# C / C++
+# ==========================
+*.h
+*.hpp
+*.c
+*.cpp
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ==========================
+# Data / Models
+# ==========================
+*.csv
+*.tsv
+*.txt
+*.dat
+*.json
+*.yaml
+*.yml
+
+# Images / Datasets
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tif
+*.tiff
+
+# ML / DL model files
+*.h5
+*.ckpt
+*.pb
+*.pth
+*.pt
+*.onnx
+
+# TensorBoard
+logs/
+tensorboard/
+
+# ==========================
+# Other
+# ==========================
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-*.h
-*.png
-*.csv
-*.txt
