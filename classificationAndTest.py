@@ -14,7 +14,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 # ======================
 # 0) 基本設定
 # ======================
-DATA_DIR   = r"C:\Users\CalvinPC\Desktop\database\flower_photos\flower_photos"
+DATA_DIR   = r"C:\Users\CalvinPC\Desktop\database\socket_photos"
 OUT_DIR    = os.path.join(os.getcwd(), f"run_{time.strftime('%Y%m%d_%H%M%S')}")
 MODEL_BASENAME = "resnet50_flower"
 

@@ -1,0 +1,33 @@
+{
+  "data_dir": "C:\\Users\\CalvinPC\\Desktop\\database\\socket_photos",
+  "out_dir": "C:\\Users\\CalvinPC\\Desktop\\project\\classificationAndTest\\run_20250907_125554",
+  "seed": 123,
+  "img_size": [
+    448,
+    448
+  ],
+  "batch_size": 64,
+  "epochs_stage1": 35,
+  "epochs_stage2": 45,
+  "learning_rate_stage1": 0.0001,
+  "learning_rate_stage2": 1e-06,
+  "label_smoothing": 0.05,
+  "dropout": 0.5,
+  "classes": [
+    "CID",
+    "DCS",
+    "DFE",
+    "GNSS",
+    "HUD",
+    "USB2",
+    "USB3"
+  ],
+  "gpu_mem_mb": 8151,
+  "split": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1
+  },
+  "val_accuracy": 1.0,
+  "test_accuracy": 1.0
+}
